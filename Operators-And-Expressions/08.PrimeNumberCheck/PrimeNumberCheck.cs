@@ -14,7 +14,11 @@ namespace _08.PrimeNumberCheck
 
             Console.WriteLine("Enter positive integer number <=100");
             uint num = uint.Parse(Console.ReadLine());
-            if (num > 1 && num <= 100) // Checks numbers in interval
+            if(num <= 1)
+            {
+                Console.WriteLine("This integer is NOT a prime number!");
+            }
+            else if (num > 1 && num <= 100) // Checks numbers in interval
             {
                 if (num == 2 || num == 3 || num == 5 || num == 7) // Checks numbers 2, 3, 5, 7
                 {
