@@ -17,9 +17,11 @@ class FormattingNumbers
         decimal decimalB = decimal.Parse(Console.ReadLine());
         Console.Write("Enter floating point number c: ");
         decimal decimalC = decimal.Parse(Console.ReadLine());
-        Console.Write("{0,-10:x}",intA);
+        Console.Write("|{0,-10:x}|",intA);
         Console.Write(Convert.ToString(intA, 2).PadLeft(10,'0'));
-        Console.Write("{0,10:F2}",decimalB);
-        Console.Write("{0,-10:F3}",decimalC);
+        bool dotB = Convert.ToString(decimalB).IndexOf(".") > 0;
+        Console.Write(dotB ? "|{0,10:F2}" : "|{0,10}", decimalB);
+        bool dotC = Convert.ToString(decimalC).IndexOf(".") > 0;
+        Console.WriteLine(dotC ? "|{0,-10:F3}|" : "|{0,-10}|", decimalC);
     }
 }
