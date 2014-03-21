@@ -19,9 +19,9 @@ class FormattingNumbers
         decimal decimalC = decimal.Parse(Console.ReadLine());
         Console.Write("|{0,-10:x}|",intA);
         Console.Write(Convert.ToString(intA, 2).PadLeft(10,'0'));
-        bool dotB = Convert.ToString(decimalB).IndexOf(".") > 0;
+        bool dotB = Convert.ToString(decimalB).IndexOf(".") > 0; //Dot check
         Console.Write(dotB ? "|{0,10:F2}" : "|{0,10}", decimalB);
-        bool dotC = Convert.ToString(decimalC).IndexOf(".") > 0;
+        bool dotC = Convert.ToString(decimalC).IndexOf(".") > 0; //Dot check
         Console.WriteLine(dotC ? "|{0,-10:F3}|" : "|{0,-10}|", decimalC);
     }
 }
