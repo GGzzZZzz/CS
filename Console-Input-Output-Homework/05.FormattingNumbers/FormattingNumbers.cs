@@ -10,7 +10,7 @@ class FormattingNumbers
         int intA = int.Parse(Console.ReadLine());
         while(intA < 0 || intA > 500) //Check number is valid
         {
-            Console.WriteLine("Invalid input! Try again!");
+            Console.Write("Invalid input! Enter again integer a: ");
             intA = int.Parse(Console.ReadLine());
         }
         Console.Write("Enter floating point number b: ");
