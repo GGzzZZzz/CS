@@ -10,7 +10,7 @@ class ExchangeIfGreater
         int second = int.Parse(Console.ReadLine());
         if(first > second)
         {
-            first ^= second; //XOR swap algoritm
+            first ^= second; //XOR swap algorithm
             second ^= first;
             first ^= second;
         }
