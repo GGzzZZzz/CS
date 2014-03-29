@@ -7,7 +7,7 @@ class BinaryToDecimalNum
 
         Console.Write("Enter binary integer number: ");
         string binary = Console.ReadLine();
-        byte[] bytes = new byte[binary.Length];//Initialize an array
+        byte[] bytes = new byte[binary.Length];//Create an array
         for (int i = 0; i < bytes.Length; i++)
         {
             bytes[i] = Convert.ToByte(binary.Substring(i, 1)); //Fill the array

@@ -23,21 +23,21 @@ class CalculateNumOfCombinatorics
             inputK = Console.ReadLine();
         }
         //Calculate factorials
-        BigInteger factorielN = 1;
-        BigInteger factorielK = 1;
+        BigInteger factorialN = 1;
+        BigInteger factorialK = 1;
         BigInteger factorielM = 1; //(n-k)!
         for (int i = 1; i <= n; i++) //Using only one loop
         {
-            factorielN *= i;
+            factorialN *= i;
             if (i <= k)
             {
-                factorielK *= i;
+                factorialK *= i;
             }
             if (i <= n - k)
             {
                 factorielM *= i;
             }
         }
-        Console.WriteLine(factorielN / (factorielK *(factorielM)));
+        Console.WriteLine(factorialN / (factorialK *(factorielM)));
     }
 }

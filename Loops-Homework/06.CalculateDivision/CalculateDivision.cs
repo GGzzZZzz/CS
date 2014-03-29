@@ -20,17 +20,17 @@ class CalculateDivision
             Console.Write("k: ");
             inputK = Console.ReadLine();
         }
-        //Calculate factoriels
-        BigInteger factorielN = 1;
-        BigInteger factorielK = 1;
+        //Calculate factorials
+        BigInteger factorialN = 1;
+        BigInteger factorialK = 1;
         for (int i = 1; i <= n; i++)
         {
-            factorielN *= i;
+            factorialN *= i;
             if (i <= k)
             {
-                factorielK *= i;
+                factorialK *= i;
             }
         }
-        Console.WriteLine(factorielN / factorielK);
+        Console.WriteLine(factorialN / factorialK);
     }
 }

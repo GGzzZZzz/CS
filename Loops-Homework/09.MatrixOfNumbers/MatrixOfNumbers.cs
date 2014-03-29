@@ -13,10 +13,10 @@ class MatrixOfNumbers
             Console.Write("Invalid input!Enter again!\nn: ");
             input = Console.ReadLine();
         }
-        for (int row = 1; row <= n; row++)
+        for (int row = 1; row <= n; row++) //Set the row
         {
             Console.Write("{0,5}",row );
-            for (int col = row + 1; col < row + n; col++)
+            for (int col = row + 1; col < row + n; col++) //Set the column
             {
                 Console.Write("{0,5}",col);
 

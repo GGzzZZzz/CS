@@ -10,14 +10,14 @@ class CalculateExpression
         int n = int.Parse(Console.ReadLine());
         Console.Write("Enter x: ");
         int x = int.Parse(Console.ReadLine());
-        BigInteger factoriel = 1;
+        BigInteger factorial = 1;
         double powerX = 1;
         double sum = 1;
         for(int i = 1; i <= n; i++)
         {
-            factoriel *= i;
+            factorial *= i;
             powerX *= x; // = Math.Pow(x,i)
-            sum += (double)factoriel / powerX;
+            sum += (double)factorial / powerX;
         }
         Console.WriteLine("{0:F5}",sum);
     }

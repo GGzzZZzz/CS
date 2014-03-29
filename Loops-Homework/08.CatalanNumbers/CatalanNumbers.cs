@@ -14,22 +14,22 @@ class CatalanNumbers
             Console.Write("Invalid input!Enter again!\nn: ");
             input = Console.ReadLine();
         }
-        //Calculate factoriels
-        BigInteger factorielOne = 1;
-        BigInteger factorielTwo = 1;
-        BigInteger factorielThree = 1;
+        //Calculate factorials
+        BigInteger factorialOne = 1;
+        BigInteger factorialTwo = 1;
+        BigInteger factorialThree = 1;
         for (int i = 1; i <= 2 * n; i++)
         {
-            factorielOne *= i;
+            factorialOne *= i;
         }
         for (int i = 1; i <= n + 1; i++)
         {
-            factorielTwo *= i;
+            factorialTwo *= i;
         }
         for (int i = 1; i <= n; i++)
         {
-            factorielThree *= i;
+            factorialThree *= i;
         }
-        Console.WriteLine(factorielOne / (factorielTwo * factorielThree));
+        Console.WriteLine(factorialOne / (factorialTwo * factorialThree));
     }
 }

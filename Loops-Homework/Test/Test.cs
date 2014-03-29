@@ -1,21 +1,32 @@
 ﻿using System;
+using System.Collections.Generic;
 class Test
 {
     static void Main()
     {
-        string startTime = "1:00 PM";
-        DateTime stratT = Convert.ToDateTime(startTime);
-        string endTime = "3:00 AM";
-        DateTime endT = Convert.ToDateTime(endTime);
-        DateTime now = DateTime.Now;
-        string time = now.ToString("hh:mm tt");
-        if ((now >= endT) && (now <= stratT))
-        {
-            Console.WriteLine("non-beer time");
-        }
-        else
-        {
-            Console.WriteLine("beer time");
-        }
+
+        //int num1 = int.Parse(Console.ReadLine());
+        //    int num2 = int.Parse(Console.ReadLine());
+        //    int a = Math.Abs(num1);
+        //    int b = Math.Abs(num2);
+ 
+        //    while (a != b)
+        //    {
+        //        while (a > b)
+        //        {
+        //            a -= b;
+        //        }
+        //        while (b > a)
+        //        {
+        //            b -= a;
+        //        }
+        //    }
+ 
+        //    Console.WriteLine(a);
+ 
+ 
+        //    }
+        string[] arr = {"A","B","C"};
+        var result = arr.Reverse();
     }
 }
