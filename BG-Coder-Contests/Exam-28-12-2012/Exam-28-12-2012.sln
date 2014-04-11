@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.A-nacci", "02.A-nacci\02.A-nacci.csproj", "{214A3F93-F88E-4381-9761-91365B98771D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ExcelColumns", "03.ExcellColumns\03.ExcelColumns.csproj", "{9BE1560D-ECC3-4A56-9F32-55F54322E709}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{214A3F93-F88E-4381-9761-91365B98771D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{214A3F93-F88E-4381-9761-91365B98771D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{214A3F93-F88E-4381-9761-91365B98771D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE1560D-ECC3-4A56-9F32-55F54322E709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE1560D-ECC3-4A56-9F32-55F54322E709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE1560D-ECC3-4A56-9F32-55F54322E709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE1560D-ECC3-4A56-9F32-55F54322E709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
