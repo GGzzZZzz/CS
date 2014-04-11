@@ -16,7 +16,7 @@ namespace _04.Rectangles
             float width = float.Parse(Console.ReadLine());
             Console.Write("Height = ");
             float height = float.Parse(Console.ReadLine());
-            Console.WriteLine("The rectangle's area is" + " " + (width * height)); //Using gormula
+            Console.WriteLine("The rectangle's area is" + " " + (width * height)); //Using formula
         }
     }
 }
