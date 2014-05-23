@@ -1,3 +1,3 @@
 Software-University
 ===================
-Solutions of homework's and contest's problems
+Solutions of homework's and contest's problems.Teamworks
