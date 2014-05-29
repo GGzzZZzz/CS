@@ -1,3 +1,3 @@
-Software-University
+CS-Basics
 ===================
-Solutions of homework's and contest's problems.Teamworks
+Solutions of homework's and contest's problems.
